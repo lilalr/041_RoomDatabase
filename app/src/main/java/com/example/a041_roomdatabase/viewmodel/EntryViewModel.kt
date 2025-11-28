@@ -8,6 +8,23 @@ import com.example.a041_roomdatabase.repositori.RepositoriSiswa
 import com.example.a041_roomdatabase.room.Siswa
 
 class EntryViewModel(private val repositoriSiswa: RepositoriSiswa): ViewModel()
+    { /* berisi status siswa saat ini */
+    var uiStateSiswa by mutableStateOf(UIStateSiswa())
+        private set
+    private fun validasiInput(uiState: DetailSiswa = uiStateSiswa.detailSiswa
+    ): Boolean {
+        return with(uiState)
+        {
+            nama.isNotBlank() && alamat.isNotBlank() && telpon.isNotBlank()
+        }
+    }
+        fun updateUiState(detailSiswa: DetailSiswa) {
+            uiStateSiswa =
+                UIStateSiswa(
+                    detailSiswa = detailSiswa, isEntryValid =
+                        validasiInput(detailSiswa)
+                )
+        }
 
 
 
