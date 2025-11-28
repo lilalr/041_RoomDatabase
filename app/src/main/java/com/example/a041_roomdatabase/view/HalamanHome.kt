@@ -80,3 +80,28 @@ fun HomeScreen(
     }
 }
 
+@Composable
+fun BodyHome(
+    itemsSiswa: List<Siswa>,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier
+    ) {
+        if (itemsSiswa.isEmpty()) {
+            Text(
+                text = stringResource(R.string.deskripsi_no_item),
+                textAlign = TextAlign.Center,
+                style = MaterialTheme.typography.titleLarge
+            )
+        } else {
+            ListSiswa(
+                itemsSiswa = itemsSiswa,
+                modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.padding_small))
+            )
+        }
+    }
+}
+
+
