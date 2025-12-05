@@ -17,4 +17,6 @@
    <img width="2240" height="1400" alt="Screenshot (412)" src="https://github.com/user-attachments/assets/94a346d3-6ce9-467b-beb5-347ffc0f09bf" />
 
 7. UPDATE DETAIL SISWA
+   <img width="2240" height="1400" alt="image" src="https://github.com/user-attachments/assets/6f438fa3-2ac4-455d-b433-c1422436f16f" />
+
 
