@@ -207,3 +207,4 @@ private fun DeleteConfirmationDialog(
                 Text(stringResource(R.string.yes))
             }
         })
+}
