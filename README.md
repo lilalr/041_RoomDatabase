@@ -1,4 +1,4 @@
-<img width="2240" height="1400" alt="Screenshot (412)" src="https://github.com/user-attachments/assets/4dbb490a-9542-4b11-93e3-0b842a61838e" />1. FORM AWAL
+1. FORM AWAL
    <img width="2240" height="1400" alt="image" src="https://github.com/user-attachments/assets/6007ee4d-0b63-4267-bfee-a8881f307bc6" />
 
 2. FORM ISIAN
