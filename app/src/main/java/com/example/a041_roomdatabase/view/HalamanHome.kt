@@ -150,11 +150,11 @@ fun DataSiswa(
                     imageVector = Icons.Default.Phone,
                     contentDescription = null
                 )
+                Text(
+                    text = siswa.telpon,
+                    style = MaterialTheme.typography.titleMedium
+                )
             }
-            Text(
-                text = siswa.telpon,
-                style = MaterialTheme.typography.titleMedium
-            )
             Text(
                 text = siswa.alamat,
                 style = MaterialTheme.typography.titleMedium
